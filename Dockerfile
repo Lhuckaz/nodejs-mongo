@@ -15,6 +15,7 @@ VOLUME ["/data/db"]
 
 EXPOSE 27017
 EXPOSE 28017
+EXPOSE 3000
 
 RUN echo "#!/bin/bash\n" > /start.sh
 RUN echo "service mongod start" >> /start.sh
