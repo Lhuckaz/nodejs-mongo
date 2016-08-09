@@ -1,0 +1,27 @@
+{
+  "name": "7coins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "karma start karma.conf.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "consign": "^0.1.2",
+    "express": "^4.13.3",
+    "moment": "^2.14.1",
+    "mongoose": "^4.3.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.1.1",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2"
+  }
+}
+ 
