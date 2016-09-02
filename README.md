@@ -9,4 +9,4 @@ Container com nodejs e mongodb
     
 **Obs.:** Nao esqueça de importar sua aplicação para pasta `app`
 
-Acessar http://<host>:3000
+Acessar http://\<host\>:3000
